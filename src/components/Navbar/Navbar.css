@@ -1,0 +1,66 @@
+/* Top bar */
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #283593;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+ 
+}
+
+.navbar-address,
+.navbar-phone {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+}
+
+/* Main Navbar */
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px 20px;
+  border-bottom: 1px solid #eee;
+   width: 100vw; /* Full width of viewport */
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  font-weight: bold;
+  color: #b00020;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.audit-button {
+  background-color: #283593;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

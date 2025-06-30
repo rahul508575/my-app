@@ -1,10 +1,9 @@
-
-* {
+html, body, #root {
+  width: 100%;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+  background-color: #000000; /* optional */
+   position: absolute;
+  top: 0;
 }
